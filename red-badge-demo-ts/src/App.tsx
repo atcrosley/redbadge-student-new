@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "reactstrap";
+import ClassComponentProps from "./components/ClassComponentProps"
 
 import FunctionalProps from "./components/FunctionalProps";
 
@@ -15,6 +16,7 @@ function App() {
         </p>
       </Container>
       <FunctionalProps numbers={numArray} />
+      <ClassComponentProps numbers ={numArray}/>
     </div>
   );
 }
